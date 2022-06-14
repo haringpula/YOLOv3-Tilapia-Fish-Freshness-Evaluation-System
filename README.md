@@ -7,7 +7,11 @@
 - RGB channels for feature extraction
 
 ## Prerequisites
-- Python version used: `python 3.8.8` or higher
+- Python version used: `python 3.8.8`
+- Recommended python package versions:
+  - `opencv-python` - version 4.5.3.56
+  - `numpy` - version 1.21.4
+  - `Pillow` - version 8.4.0
 
 ## Installation
 - `git clone https://github.com/Evrouin/yolov3-tilapia.git`
@@ -16,24 +20,12 @@
   - yolov3_tilapia.cfg
   - obj.names
 - Extract the `data.zip` to root folder
-- The folder structure should be similar to this:
-```
-    ├── venv
-    ├── data
-    │   ├── yolov3_tilapia.weights
-    │   ├── yolov3_tilapia.cfg
-    │   ├── obj.names
-    ├── images
-    │   ├── ...
-    ├── outputs
-    │   ├── ...
-    └── thesis-tool.py
-```
 
 ## Deployment
-- Running the virtual environment
-  - Type and enter `.\venv\Scripts\activate` in the terminal
-- To run the system, enter `python thesis-tool.py`
+To deploy this project run `tilapia-fish-freshness-evaluation-system.py` from the root folder, or through the terminal with
+```bash
+  python tilapia-fish-freshness-evaluation-system.py
+```
 
 ## Authors
 - [@John Elway Cortez](https://github.com/Evrouin)

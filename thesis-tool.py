@@ -20,12 +20,12 @@ def selected():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--image", default=img_path, help="image for prediction")
     parser.add_argument("--config", default='data/yolov3_tilapia.cfg', help="YOLO config path")
-    parser.add_argument("--weights", default='data/yolov3_tilapia_last.weights', help="YOLO weights path")
+    parser.add_argument("--weights", default='data/yolov3_tilapia.weights', help="YOLO weights path")
     parser.add_argument("--names", default='data/obj.names', help="class names path")
     args = parser.parse_args()
 
-    lbl_freshnes.config(text="<<FRESHNESS ANALYSIS>>", font=("Helvetica", 18))
-    average_rgb.config(text="<<AVERAGE COLOR RGB>>", font=("Helvetica", 18))
+    lbl_freshnes.config(text="FRESHNESS ANALYSIS", font=("Helvetica", 18))
+    average_rgb.config(text="AVERAGE COLOR RGB", font=("Helvetica", 18))
 
     CONF_THRESH, NMS_THRESH = 0.5, 0.5
 
@@ -222,11 +222,11 @@ canvas2 = Canvas(root, width="1320", height="420", relief=RIDGE, bd=2)
 canvas2.place(x=15, y=10)
 
 # freshness analyis
-lbl_freshnes = Label(root, text="<<FRESHNESS ANALYSIS>>", font=("Helvetica", 18))
+lbl_freshnes = Label(root, text="FRESHNESS ANALYSIS", font=("Helvetica", 18))
 lbl_freshnes.place(x=60, y=480)
 
 # average rgb channels
-average_rgb = Label(root, text="<<AVERAGE COLOR RGB>>", font=("Helvetica", 18))
+average_rgb = Label(root, text="AVERAGE COLOR RGB", font=("Helvetica", 18))
 average_rgb.place(x=60, y=520)
 
 # create buttons
