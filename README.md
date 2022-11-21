@@ -1,4 +1,4 @@
-# YOLOv3 - Tilapia
+# Fish Freshness Evaluator (YOLOv3 Tilapia Fish Freshness Evaluation System)
 
 ## Features
 
@@ -34,11 +34,11 @@ To deploy this project run `tilapia-fish-freshness-evaluation-system.py` from th
 
 ## Documentation
 
-The thesis paper can be found [here](Thesis-Manuscript.pdf) titled *Tilapia Fish Freshness Evaluation by Gill Color Using YOLOv3 and GrabCut Algorithm for Image Segmentation and Utilization of RGB Channels for Feature Extraction*
+The thesis paper can be found [here](Thesis-Manuscript.pdf) titled *Tilapia Fish Freshness Evaluation by Gill Color Using YOLOv3 and GrabCut Algorithm for Image Segmentation and Utilization of RGB Channels for Feature Extraction*.
 
-Contributing
+## Contributing
 
-Contributions are welcome! Feel free to open a pull request or something
+Contributions are welcome! Feel free to open a pull request or something.
 
 Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
@@ -48,3 +48,11 @@ Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 - [@Dustin Uriel Obispo](https://github.com/haringpula/YOLOv3-Tilapia-Fish-Freshness-Evaluation-System)
 - [@King Red Sanchez](https://github.com/haringpula)
 - [@Briel Aldous Viola](https://github.com/haringpula/YOLOv3-Tilapia-Fish-Freshness-Evaluation-System)
+
+## Citation
+
+If you use this software or study as a reference, please cite it as [follows](CITATION.cff).
+
+## License
+
+The project is distributed under the MIT License. See [License](LICENSE.txt) for more details.

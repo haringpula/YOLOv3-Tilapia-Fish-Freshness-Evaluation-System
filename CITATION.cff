@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or study as a reference, please cite it as follows."
+type: software
+title: "Fish Freshness Evaluator"
+url: "https://github.com/haringpula/YOLOv3-Tilapia-Fish-Freshness-Evaluation-System"
+authors:
+  - family-names: Cortez
+    given-names: John Elway
+  - family-names: Obispo
+    given-names: Dustin Uriel
+  - family-names: Sanchez
+    given-names: King Red
+  - family-names: Viola
+    given-names: Briel Aldous
+license: MIT
+preferred-citation:
+    type: conference-paper
+    title: "Tilapia Fish Freshness Evaluation by Gill Color Using YOLOv3 and GrabCut Algorithm for Image Segmentation and Utilization of RGB Channels for Feature Extraction*."
+    collection-title: "International ICT Conferences 2022"
+    year: 2022
+    month: 08
+    authors:
+    - family-names: Cortez
+      given-names: John Elway
+    - family-names: Obispo
+      given-names: Dustin Uriel
+    - family-names: Sanchez
+      given-names: King Red
+    - family-names: Viola
+      given-names: Briel Aldous
+    conference:
+      name: International ICT Conferences 2022
+      date-start: 2022-08-02
+      date-end: 2021-08-05
+    
