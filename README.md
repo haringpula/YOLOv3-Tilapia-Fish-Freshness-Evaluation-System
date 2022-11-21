@@ -34,7 +34,13 @@ To deploy this project run `tilapia-fish-freshness-evaluation-system.py` from th
 
 ## Documentation
 
-The thesis paper can be found [here]() titled *Tilapia Fish Freshness Evaluation by Gill Color Using YOLOv3 and GrabCut Algorithm for Image Segmentation and Utilization of RGB Channels for Feature Extraction*
+The thesis paper can be found [here](Thesis-Manuscript.pdf) titled *Tilapia Fish Freshness Evaluation by Gill Color Using YOLOv3 and GrabCut Algorithm for Image Segmentation and Utilization of RGB Channels for Feature Extraction*
+
+Contributing
+
+Contributions are welcome! Feel free to open a pull request or something
+
+Please adhere to this project's [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Authors
 
