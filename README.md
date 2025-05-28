@@ -18,10 +18,11 @@
 ## Installation
 
 - `git clone https://github.com/haringpula/YOLOv3-Tilapia-Fish-Freshness-Evaluation-System`
-- Download the [data](https://drive.google.com/drive/folders/13HtjeKef48g6G3THhFDoh-xxKX5PUzbo?usp=share_link) folder that includes:
+- Download the [data](https://drive.google.com/drive/folders/13HtjeKef48g6G3THhFDoh-xxKX5PUzbo?usp=drive_link) folder that includes:
   - yolov3_tilapia.weights
   - yolov3_tilapia.cfg
   - obj.names
+  - A copy of the Dataset used in the study
 - Extract the `data.zip` to root folder
 
 ## Deployment
